@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Outlet } from "react-router-dom";
-import { HorseShoe } from "lucide-react";
+import { Horse } from "lucide-react";
 
 function SharedLayout() {
   return (
@@ -11,7 +11,7 @@ function SharedLayout() {
       <header className="sticky top-0 flex h-16 items-center gap-4 border-b bg-background px-4 md:px-6 justify-between">
         <nav className="hidden flex-col gap-6 text-lg font-medium md:flex md:flex-row md:items-center md:gap-5 md:text-sm lg:gap-6">
           <a href="#" className="flex items-center gap-2 text-lg font-semibold md:text-base">
-            <HorseShoe className="h-6 w-6" />
+            <Horse className="h-6 w-6" />
             <span className="sr-only">Horse World</span>
           </a>
           <a href="#" className="text-muted-foreground transition-colors hover:text-foreground">Home</a>
@@ -30,7 +30,7 @@ function SharedLayout() {
           <SheetContent side="left">
             <nav className="grid gap-6 text-lg font-medium">
               <a href="#" className="flex items-center gap-2 text-lg font-semibold">
-                <HorseShoe className="h-6 w-6" />
+                <Horse className="h-6 w-6" />
                 <span className="sr-only">Horse World</span>
               </a>
               <a href="#" className="text-muted-foreground hover:text-foreground">Home</a>
